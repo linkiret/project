@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body,html {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.site {
+	padding-top:100px;
+}
+
+h2.search {
+	font-weight: bold;
+	font-size: 24px;
+}
+
+h2.search label {
+	position:relative;
+}
+h2.search label:after {
+	content:"";
+	height:3px;
+	background-color:#2656b9;
+	width:100%;
+	position:absolute;
+	left:0px;
+	bottom:0px;
+}
+
+.search-item .shield {
+	background-color: #5dc86e;
+	color: white;
+	height: 30px;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	padding: 4px;
+	border-radius: 0px 0px 4px 4px;
+}
+
+.search-item img {
+	border-radius: 4px 4px 0px 0px;
+	width:100%;
+}
+
+.search-item .btn {
+	font-size: 16px;
+	background-color: #2656b9;
+	font-weight: lighter;
+	padding:4px;
+}
+.search-item label {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.overflow {
+	position:absolute;
+	right:0px;
+	top:0px;
+}
+.overflow .back {
+	width:165px;
+	height:165px;
+	background: radial-gradient(50% 50% at 50% 50%, #2360BB 0%, #2754B9 100%);
+box-shadow: -7px 7px 23px -3px rgba(0, 0, 0, 0.17);
+
+}

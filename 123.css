@@ -93,3 +93,68 @@ h2.search label:after {
 	background: rgba(255, 255, 255, 0.75);
 	border-radius: 50%;
 }
+
+.cop {
+	position: fixed;
+	font-weight: 300;
+	font-size: 21px;
+	z-index: 100;
+	text-align: center;
+	padding: 25.6px;
+	bottom: 0px;
+	color: rgba(255, 255, 255, 0.81);
+}
+
+.background.f , .background .ff {
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+
+.background {
+	position: absolute;
+	display: block;
+	z-index: 100;
+	min-width: 100%;
+	min-height: 100%;
+	background: linear-gradient(114.85deg, #2360BB 0%, #2360BB 23.44%, #451EB7 50%, #1A6CBA 100%);
+}
+
+.background .back {
+	height: 48vw;
+}
+
+.background .front1 {
+	width:124px;
+	height:124px;
+
+	background: rgba(255, 255, 255, 0.23);
+	border-radius: 50%;
+}
+
+.background .front2 {
+	width:90px;
+	height:90px;
+
+	background: rgba(255, 255, 255, 0.23);
+	border-radius: 50%;
+}
+
+.background .front3 {
+	width:60px;
+	height:60px;
+
+	background: rgba(255, 255, 255, 0.75);
+	border-radius: 50%;
+}
+
+.background .vopros {
+	position: absolute;
+	width: 346px;
+	height: 76px;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 34px;
+	margin-left: 600px;
+	color: rgba(255, 255, 255, 0.81);
+}

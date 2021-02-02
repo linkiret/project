@@ -126,33 +126,79 @@ h2.search label:after {
 .background .front1 {
 	width:124px;
 	height:124px;
-
 	background: rgba(255, 255, 255, 0.23);
 	border-radius: 50%;
+	animation: pulse-ai-o  1s infinite ease-in-out;
 }
 
 .background .front2 {
 	width:90px;
 	height:90px;
-
+	
 	background: rgba(255, 255, 255, 0.23);
 	border-radius: 50%;
+	animation: pulse-ai-t  2s infinite ease-in-out;
 }
 
 .background .front3 {
 	width:60px;
 	height:60px;
-
 	background: rgba(255, 255, 255, 0.75);
 	border-radius: 50%;
+	animation: pulse-ai-th  3s infinite ease-in-out;
 }
 
 .background .vopros {
-	position: absolute;
 	width: 346px;
 	height: 76px;
 	font-weight: 300;
 	font-size: 34px;
-	margin-left: 600px;
+	margin-left: 37px;
 	color: rgba(255, 255, 255, 0.81);
 }
+
+.background .wrapper {
+	width: 164px;
+	height: 164px;
+}
+
+
+@keyframes pulse-ai-o {
+from {
+	width: 124px;
+    height: 124px;
+}
+50% {
+	width: 164px;
+    height: 164px;
+}
+to {width: 124px;
+    height: 124px;}
+}
+
+@keyframes pulse-ai-t {
+from {
+	width: 90px;
+    height: 90px;
+}
+50% {
+	width: 120px;
+    height: 120px;
+}
+to {width: 90px;
+    height: 90px;}
+}
+
+@keyframes pulse-ai-th {
+from {
+	width: 40px;
+    height: 40px;
+}
+50% {
+	width: 90px;
+    height: 90px;
+}
+to {width: 40px;
+    height: 40px;}
+}
+

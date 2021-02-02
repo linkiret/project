@@ -105,7 +105,7 @@ h2.search label:after {
 	color: rgba(255, 255, 255, 0.81);
 }
 
-.background.f , .background .ff {
+.background.f , .background .ff, .background {
 	display: flex;
 	align-items: center;
     justify-content: center;
@@ -113,7 +113,6 @@ h2.search label:after {
 
 .background {
 	position: absolute;
-	display: block;
 	z-index: 100;
 	min-width: 100%;
 	min-height: 100%;
@@ -121,7 +120,7 @@ h2.search label:after {
 }
 
 .background .back {
-	height: 48vw;
+
 }
 
 .background .front1 {
@@ -152,7 +151,6 @@ h2.search label:after {
 	position: absolute;
 	width: 346px;
 	height: 76px;
-	font-style: normal;
 	font-weight: 300;
 	font-size: 34px;
 	margin-left: 600px;
